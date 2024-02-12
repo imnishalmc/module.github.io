@@ -1,0 +1,52 @@
+*{  /* this is universal styling ho and overall element ma yaha jasto set garyaxa testai hunxa purai project ma*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height:60px;
+    width:100%;
+    background:rgb(167, 84, 84);
+}
+.heading ul{
+    display: flex;
+}
+.logo a { /*for the anchor tag*/
+    color: whitesmoke;
+    transition: 0.4s;
+    font-weight: 800;
+}
+.logo a:hover{
+    color:rgb(233, 233, 9);
+    transition: 0.4s;
+}
+.heading ul li {
+    list-style: none;
+}
+.heading ul li a{
+     margin:5px; /* this will create a space of 5px around and betn the element */
+    text-decoration: none;/*  this is apply to any link it will remove the underline in it */ 
+    color: black;
+    font-weight: 500;
+    position: relative; /*  when you set the position property to relative, you can use the top, right, bottom, and left properties to move the element from its normal position. The other elements on the page will not fill the gap created by the movement of the relatively positioned element*/
+    color:white;
+    margin: 2px 14px;/* This means the element will have space around it, with 2 pixels at the top and bottom and 14 pixels on the left and right side.*/
+    font-size: 18px;
+    transition-duration: 1s;
+}
+.heading ul li a:active{/* In this case, the code will change the color of the text in the link to yellow when it is being activated.*/
+    color: rgb(228, 253, 6);
+}
+.heading ul li a.hover{/*In this case, the code sets the color of the text to change to rgb(243, 168, 7) with a smooth transition lasting 1 second when the user hovers over the link.*/
+    color: rgb(243,168,7);
+    transition-duration: 1s;
+}
+.heading ul li a::before{
+    content:'';
+    height: 2px;
+    width: 0px;
+    position:absolute;
+}

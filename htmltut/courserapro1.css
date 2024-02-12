@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+h1 {
+    margin-bottom: 17px;
+    text-align: center;
+    color: rgb(161, 103, 28);
+    font-size: 50px;
+}
+
+section {
+    position: relative;
+    padding: 15px;
+    width: 90%;
+}
+
+p {
+    position: relative;
+    clear: right;
+}
+
+div {
+    position: relative;
+    background-color: rgb(153, 140, 140);
+    border: 3px solid rgb(12, 8, 8);
+    width: 99%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+.box1 {
+    float: right;
+    width: 100px;
+    color: white;
+    padding: 4px;
+    margin: -3px -3px 0px;
+    text-align: center;
+    font-size: 130%;
+    font-weight: bold;
+    background-color: rgb(55, 56, 40);
+    border: solid black;
+}
+
+.box2 {
+    float: right;
+    width: 100px;
+    padding: 4px;
+    color: white;
+    margin: -3px -3px 0px;
+    text-align: center;
+    font-size: 130%;
+    font-weight: bold;
+    border: solid black;
+    background-color: rgb(119, 22, 82);
+}
+
+.box3 {
+    float: right;
+    width: 100px;
+    padding: 4px;
+    color: white;
+    margin: -3px -3px 0px;
+    text-align: center;
+    font-size: 130%;
+    font-weight: bold;
+    border: solid black;
+    background-color: rgb(51, 131, 197);
+}
+
+.content {
+    padding: 6px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    height: 150px;
+    overflow: auto;
+}
+
+.row {
+    width: 90%;
+}
+
+/*desktop version*/
+@media(min-width:992px) {
+    .column-1g-4 {
+        float: left;
+        width: 33%;
+    }
+}
+
+/*tablet version*/
+@media(min-width:768px) and (max-width:991px) {
+    .colmn-md-6 {
+        float: left;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .colmn-md-12 {
+        float: left;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+/*mobile version*/
+@media(max-width:767px) {
+    .colmn-sm-12 {
+        float: left;
+        width: 100%;
+    }
+}

@@ -1,0 +1,62 @@
+*{
+    background-color: rgb(241, 193, 130);
+}
+
+.holder{
+    height: 20px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border-color: 2px solid black;
+    cursor: pointer;
+    border: 2.5px solid black;
+
+
+}
+.contact{
+    height: 20px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border-color: 2px solid black;
+    cursor: pointer;
+    border: 2.5px solid black;
+
+
+}
+.college{
+    height: 20px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 2.5px solid black;
+    cursor: pointer;
+
+}
+.field{
+    height: 25px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 2.5px solid rgb(16, 15, 15);
+    cursor: pointer;
+
+}
+.password{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 2.5px solid black;
+
+}
+.next{
+    margin-bottom: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 2.5px solid black;
+
+
+}
+.clear{
+    border-radius: 4px;
+    cursor: pointer;
+    border: 2.5px solid black;
+
+}

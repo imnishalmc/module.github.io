@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f6efeff4;
+}
+.profile-card{
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+   max-width:400px;
+    width: 100%;
+    /* height: 500px; */
+    border-radius: 20px;
+    padding:  25px;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+.profile-card::before{
+    content: "";
+    background-color: #4262bc;
+    width: 100%;
+    height: 35%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 24px 24px 0 0;
+}
+.image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #879acc;
+    padding: 3px;
+    margin: 10px;
+}
+.image .profile-pic{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+.profile-card .text-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text-data .name {
+    font-size: 22px;
+    font-weight: 500;
+}
+.text-data .job {
+    font-size: 18px;
+    font-weight: 300;
+}
+.profile-card .media-button{
+   align-items: center;
+    display: flex;
+    margin-top: 15px;
+}
+.media-button .link{
+    text-decoration: none;
+    background-color: #4070f4;
+    margin: 0 8px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+}
+.profile-card .buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+.buttons .button{
+background-color: #233d86;
+border: none;
+font-size: 14px;
+font-weight: 400;
+color: #fff;
+margin:0 10px;
+border-radius: 24px;
+padding: 8px 24px;
+box-shadow: 0 5px 2px rgba(19, 18, 18, 0.1);
+cursor: pointer;
+transition: all 0.5s ease;
+}
+ span{
+font-size: 20px;
+font-weight: 100;
+}
+.buttons .button:hover{
+    background-color: #0e4bf1;
+}
+.profile-card .analytics{
+    display: flex;
+    margin-top: 24px;
+    align-items: center;
+}
+.analytics .data {
+  display: flex;
+  align-items: center;
+ color: #333;
+ padding: 0 20px;
+ border-right: 2px solid #e7e7e7;
+}
+.data:last-child{
+    border-right: none;
+}
+.data i{
+    font-size: 20px;
+    margin-right: 5px;
+    
+}
